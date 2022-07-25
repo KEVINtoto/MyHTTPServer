@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">
+    function previewFile() {
+      var preview = document.querySelector('img');
+      var file = document.querySelector('input[type=file]').files[0];
+      var reader = new FileReader();
+      reader.onloadend = function () {
+        preview.src = reader.result;
+      }
+      if (file) {
+        reader.readAsDataURL(file);
+      } else {
+        preview.src = "";
+      }
+    }
+  </script>
+  <title>Upload page</title> 
+</head>
+<body>
+  <h1>Welcome to toto's HTTP server~~~</h1>
+  <form method="post" action="upload.action" enctype="multipart/form-data">
+    <fieldset>
+      <legend>&nbsp; Modify personal information: &nbsp;</legend> <img src="images/default.jpeg" height="100"
+        width="100" style="float:right;border-radius:100%" alt="Image preview..." /> <br>
+      Username: toto <br><br>
+      Portrait: <input type="file" name="portrait" accpect="image/*" onchange="previewFile()" /><br><br>
+      Password: <input type="password" name="passwd" value="123456" style="width:200;height:25px;"><br><br>
+      Signature: <input type="text" name="signature" value="hahaha" maxlength="100"
+        style="width:500px;height:25px;"><br><br>
+      <input type="submit" style="width: 100px;" />
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <script language="javascript">
+        function inputLength() {
+            var username = document.login_form.username.value;
+            var passwd = document.login_form.passwd.value;
+            if (username.length == 0 || passwd.length == 0) {
+                alert("Please enter your user name and password!");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Welcome to toto's HTTP server~~~</h1>
+    <form method="post" action="login.action" name="login_form" onsubmit="return inputLength()">
+        <fieldset>
+            <legend>&nbsp;Login/Register: &nbsp;</legend> <br>
+            Username: <input type="text" name="username" id="username" style="width: 200;height:20px;">
+            <br><br>
+            Password: <input type="password" name="passwd" id="passwd" style="width: 200;height:20px;">
+            <br><br>
+            <input type="radio" checked="checked" name="type" value="login">login
+            <input type="radio" name="type" value="register">register
+            <br><br>
+            <input type="submit" style="width: 80px;" />
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
