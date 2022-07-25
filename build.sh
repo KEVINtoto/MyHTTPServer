@@ -1,0 +1,1 @@
+g++ src/*.cpp -o server -pthread -L/usr/local/lib -lssl -lcrypto -std=c++11
