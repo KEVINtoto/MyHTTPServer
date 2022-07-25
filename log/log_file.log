@@ -1,0 +1,64 @@
+[INFO 2022-07-25 17:34:04 src/main.cpp:65] Server starting......
+[INFO 2022-07-25 17:34:04 src/main.cpp:67] Server started.
+[DEBUG 2022-07-25 17:34:11 src/httpconnection.cpp:995] set timer
+[INFO 2022-07-25 17:34:11 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:34:11 src/httpconnection.cpp:995] set timer
+[INFO 2022-07-25 17:34:11 src/server.cpp:147] new client: 7
+[DEBUG 2022-07-25 17:34:11 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:34:11 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:34:11 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:34:11 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:34:11 src/httpconnection.cpp:995] set timer
+[INFO 2022-07-25 17:34:11 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:34:11 src/httpconnection.cpp:1002] update timer
+[INFO 2022-07-25 17:34:16 src/database.cpp:90] Key:toto search successfully.
+[DEBUG 2022-07-25 17:34:16 src/httpconnection.cpp:995] set timer
+[INFO 2022-07-25 17:34:16 src/server.cpp:147] new client: 7
+[DEBUG 2022-07-25 17:34:16 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:34:16 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:36:11 src/httpconnection.cpp:239] close http conn.
+[INFO 2022-07-25 17:36:25 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:36:25 src/httpconnection.cpp:995] set timer
+[DEBUG 2022-07-25 17:36:25 src/httpconnection.cpp:995] set timer
+[INFO 2022-07-25 17:36:25 src/server.cpp:147] new client: 7
+[DEBUG 2022-07-25 17:36:25 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:36:25 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:36:25 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:36:25 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:36:25 src/httpconnection.cpp:995] set timer
+[INFO 2022-07-25 17:36:25 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:36:25 src/httpconnection.cpp:1002] update timer
+[INFO 2022-07-25 17:43:20 src/main.cpp:65] Server starting......
+[INFO 2022-07-25 17:43:20 src/main.cpp:67] Server started.
+[INFO 2022-07-25 17:43:31 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:43:31 src/httpconnection.cpp:1003] set timer
+[DEBUG 2022-07-25 17:43:31 src/httpconnection.cpp:1003] set timer
+[INFO 2022-07-25 17:43:31 src/server.cpp:147] new client: 7
+[DEBUG 2022-07-25 17:43:31 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:43:31 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:43:31 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:43:31 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:43:31 src/httpconnection.cpp:1003] set timer
+[INFO 2022-07-25 17:43:31 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:43:31 src/httpconnection.cpp:1010] update timer
+[INFO 2022-07-25 17:43:37 src/server.cpp:147] new client: 7
+[DEBUG 2022-07-25 17:43:37 src/httpconnection.cpp:1003] set timer
+[DEBUG 2022-07-25 17:43:37 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:43:37 src/httpconnection.cpp:239] close http conn.
+[INFO 2022-07-25 17:43:41 src/database.cpp:90] Key:toto search successfully.
+[DEBUG 2022-07-25 17:43:41 src/httpconnection.cpp:1003] set timer
+[INFO 2022-07-25 17:43:41 src/server.cpp:147] new client: 7
+[DEBUG 2022-07-25 17:43:41 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:43:41 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:45:31 src/httpconnection.cpp:239] close http conn.
+[INFO 2022-07-25 17:46:42 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:46:42 src/httpconnection.cpp:1003] set timer
+[DEBUG 2022-07-25 17:46:42 src/httpconnection.cpp:1003] set timer
+[INFO 2022-07-25 17:46:42 src/server.cpp:147] new client: 7
+[DEBUG 2022-07-25 17:46:42 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:46:42 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:46:42 src/server.cpp:156] EPOLLRDHUP
+[DEBUG 2022-07-25 17:46:42 src/httpconnection.cpp:239] close http conn.
+[DEBUG 2022-07-25 17:46:42 src/httpconnection.cpp:1003] set timer
+[INFO 2022-07-25 17:46:42 src/server.cpp:147] new client: 6
+[DEBUG 2022-07-25 17:46:42 src/httpconnection.cpp:1010] update timer
