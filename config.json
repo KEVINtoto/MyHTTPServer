@@ -1,0 +1,22 @@
+{
+    "port": 10086,
+    "default file": "index.html",
+    "max http connection": 10000,
+    "max events": 100000,
+    "http timeout": 120,
+
+    "thread number": 8,
+    "max requests": 100000,
+
+    "database file": "data/dbfile",
+    "max number of edit": 1,
+    "dump interval": 10,
+    "max number of db connection": 32,
+
+    "log file path": "log/log_file.log",
+    "log max line": 1,
+
+    "cert path": "ssl/cacert.pem",
+    "cert password": "123456",
+    "private key path": "ssl/privatekey.pem"
+}
