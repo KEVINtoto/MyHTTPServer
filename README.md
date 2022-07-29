@@ -12,3 +12,6 @@
 ## MyHTTPServer 框架图
 
 ![MyHTTPServer](https://user-images.githubusercontent.com/34743589/181698914-7e8658da-d215-4a5c-b923-600a5eafb603.png)
+
+## 后续可进行的工作和改进
+* 将单 Reactor 改为多 Reactor 模式，减少主线程的 I/O 压力。
