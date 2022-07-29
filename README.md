@@ -9,4 +9,6 @@
 * 实现了一个简单的异步双缓冲区日志系统，当前端缓冲区达到设置的最大行数时会交由后端线程异步地将其内容写入到文件中。
 * 实现了一个轻量的 `JSON` 解析器，通过解析配置文件里的参数来初始化服务器、数据库和日志系统。这里主要参考了 [https://github.com/miloyip/json-tutorial](https://github.com/miloyip/json-tutorial) 的实现。
 
+## MyHTTPServer 框架图
+
 ![MyHTTPServer](https://user-images.githubusercontent.com/34743589/181698914-7e8658da-d215-4a5c-b923-600a5eafb603.png)
